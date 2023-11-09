@@ -4,6 +4,8 @@
     margin: 0;
     font-size: x-large;
     color:#00b51a;
+    overflow: hidden;
+
 }
 
 
@@ -85,7 +87,12 @@ border-color: darkblue !important;
 }
 #aboutsection{
     background-image: url("/images/coralreefback.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
 #aboutsection li{
     display: grid;
     justify-content: center;
