@@ -63,3 +63,21 @@ li a:active {
 border-bottom: 2cm !important;
 border-color: darkblue !important;
 }
+#profile{
+    height:150px;
+    width:140px;
+    margin:40px;
+    padding :20px;
+    border:80px;
+    border-color: #1f51ff;
+    border-radius:10%;
+}
+.landing{
+    background-color:linear-gradient(50deg,aqua,aquamarine,black);
+    
+    color:linear-gradient(140deg,#00b51a,#1f51ff);
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    margin:auto;left: auto;
+}
