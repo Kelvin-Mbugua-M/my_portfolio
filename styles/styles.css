@@ -81,3 +81,24 @@ border-color: darkblue !important;
     justify-items: center;
     margin:auto;left: auto;
 }
+#aboutlist{
+    display:flow-root;
+    align-items: center;
+    left:auto;
+    right: 2px;
+    list-style: none;
+    
+}
+#aboutlist li{
+    display: flow-root;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#progabout{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 20px;
+}
