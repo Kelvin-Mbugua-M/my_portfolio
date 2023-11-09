@@ -112,12 +112,22 @@ border-color: darkblue !important;
     margin-top: 20px;
 }
 footer{
-    background-color: linear-gradient(200deg,aqua,magenta);
+    background-color:black;
+    display: flexbox;
     justify-content: center;
-    align-items: center;
+    align-items: calc(4*space-around);   
 }
 .footerimages{
     height:20px;
     width:20px;
     
+}
+.contactimages{
+    height:100px;
+    width:auto
+    
+}
+.contacticons{
+    list-style: none;
+    display: block;
 }
